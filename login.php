@@ -20,11 +20,11 @@ if(isset($_POST["login"]))
         $username = $_POST['username'];
         $password = $_POST['password'];
 //TODO: revisar esta wea
-        $mysqli = new mysqli($host ="localhost", $username = "username", $password = "", $dbname = "usuarios");
-        $numrows=mysql_num_rows($mysqli);
+        $query = new mysqli($host ="localhost", $username = "username", $password = "", $dbname = "usuarios");
+        $numrows=mysql_num_rows($query);
         if($numrows!=0)
         {
-            while($row=mysql_fetch_assoc($mysqli))
+            while($row=mysql_fetch_assoc($query))
             {
                 $dbusername=$row['username'];
                 $dbpassword=$row['password'];
