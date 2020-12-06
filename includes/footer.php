@@ -1,0 +1,5 @@
+<footer>
+<p>TECNOLOGICO DE ESTUDIOS SUPERIORES DE IXTAPALUCA <br/>INGENIERIA INFORMATICA</p>
+</footer>
+</body>
+</html>
