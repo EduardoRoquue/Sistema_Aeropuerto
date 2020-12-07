@@ -2,7 +2,7 @@
 
 //DB constantes
 $servername ="localhost";
-$database = "usuarios";
+$database = "usuariosdb";
 $username = "root";
 $password = "";
 

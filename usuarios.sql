@@ -1,5 +1,5 @@
 /*CREATE DB*/
-CREATE DATABASE usuarios;
+CREATE DATABASE usuariosdb;
 
 /*CREATE TABLE*/
 CREATE TABLE 'usuarios' (

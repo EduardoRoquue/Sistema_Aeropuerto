@@ -17,7 +17,7 @@ if(isset($_POST["register"]))
         $numrows=mysql_num_rows($query);
         if($numrows!=0)
         {
-            $sql="INSERT INTO usuarios
+            $sql="INSERT INTO usuariosdb
             (nombre, ap_pat, ap_mat, username, password)
             VALUES('$nombre', '$ap_pat', '$ap_mat', '$username', '$password')";
 
