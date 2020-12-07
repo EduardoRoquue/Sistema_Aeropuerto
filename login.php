@@ -21,7 +21,7 @@ if(isset($_POST["login"]))
         $password = $_POST['password'];
 //TODO: revisar esta wea
         $query = new mysqli($host ="localhost", $username = "username", $password = "", $dbname = "usuarios");
-        $numrows=mysql_num_rows($query);
+        $numrows='mysql_num_rows'($query);
         if($numrows!=0)
         {
             while($row=mysql_fetch_assoc($query))

@@ -21,7 +21,7 @@ if(isset($_POST["register"]))
             (nombre, ap_pat, ap_mat, username, password)
             VALUES('$nombre', '$ap_pat', '$ap_mat', '$username', '$password')";
 
-            $result = mysql_query($sql);
+            $result = mysqli_query($sql);
 
             if($result)
             {
